@@ -1,0 +1,2 @@
+# Convert file from ABX to XML
+python.exe .\ccl_abx.py .\test_interned_strings.xml.abx > res.xml

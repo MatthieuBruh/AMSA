@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message amsa {
+    string nom_du_cours = 1;
+    int32 year = 2;
+}

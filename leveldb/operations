@@ -1,0 +1,7 @@
+Put(key, value): écrire/ajouter une paire clé/valeur
+
+Get(key): obtenir la valeur d’une certaine clé
+Deleted(key, value): supprimer une paire clé-valeur
+    − La suppression se fait en deux temps:
+        (1) la paire est marquée comme supprimée,
+        (2) puis est effectivement supprimée du fichier lorsque la base de données est réorganisée.
