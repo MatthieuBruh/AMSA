@@ -1,0 +1,2 @@
+PowerShell : cmd /c "protoc.exe --decode_raw < amsa_data"
+CMD : protoc.exe --decode_raw < amsa_data
